@@ -24,7 +24,11 @@ module.exports = {
     'react/no-danger': 'off',
     'react/forbid-prop-types': 'off',
     'react/destructuring-assignment': 'off',
+    'react/jsx-props-no-spreading': 'off',
     'consistent-return': 'off',
+    'arrow-body-style': 'off',
+    'import/no-extraneous-dependencies': 'off',
+    'semi': ['error', 'never'],
   },
   settings: {
     'import/core-modules': [],
