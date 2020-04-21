@@ -3,7 +3,7 @@ module.exports = {
     browser: true,
     es6: true,
   },
-  extends: 'airbnb',
+  extends: ['airbnb', 'prettier'],
   plugins: ['react', 'jsx-a11y', 'import'],
   parserOptions: {
     ecmaFeatures: {
@@ -28,7 +28,7 @@ module.exports = {
     'consistent-return': 'off',
     'arrow-body-style': 'off',
     'import/no-extraneous-dependencies': 'off',
-    'semi': ['error', 'never'],
+    semi: ['error', 'never'],
   },
   settings: {
     'import/core-modules': [],
