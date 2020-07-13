@@ -7,6 +7,7 @@ import { ThemeProvider } from 'styled-components'
 import GlobalStyle from '../styles/globalStyle'
 import light from '../themes/default'
 import Header from './header'
+import Tiles from './tiles'
 import Footer from './footer'
 
 const Layout = ({ children }) => {
@@ -28,6 +29,8 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata.title} />
 
       <main>{children}</main>
+
+      <Tiles />
 
       <Footer />
     </ThemeProvider>

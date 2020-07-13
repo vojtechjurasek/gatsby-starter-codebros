@@ -2,10 +2,11 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Box } from 'rebass/styled-components'
 
-const Container = ({ children, width = 960, px = 3 }) => (
+const Container = ({ children, width = 1200, px = 3 }) => (
   <Box
     sx={{
       maxWidth: width,
+      width: '100%',
       mx: 'auto',
       px,
     }}
@@ -21,7 +22,7 @@ Container.propTypes = {
 }
 
 Container.defaultProps = {
-  width: 960,
+  width: 1200,
   px: 3,
 }
 

@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-codebros",
+  "name": "moravska.cz",
   "private": true,
-  "description": "A starter to get up and developing quickly with Gatsby, ESLint, Styled Components, Rebass and various Gatsby plugins.",
+  "description": "Komplexní dodávky ve stavebnictví a tepelné energetice pro objekty občanské a průmyslové výstavby",
   "version": "0.2.0",
-  "author": "Vojtech Jurasek <vojtech@codebros.cz>",
+  "author": "Vojtech Jurasek <jurasek@ctyrimedia.cz>",
   "scripts": {
     "build": "gatsby build",
     "dev": "gatsby develop",
@@ -13,16 +13,18 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
-    "gatsby": "^2.23.20",
-    "gatsby-image": "^2.4.12",
-    "gatsby-plugin-manifest": "^2.4.17",
-    "gatsby-plugin-netlify": "^2.3.10",
-    "gatsby-plugin-offline": "^3.2.16",
-    "gatsby-plugin-react-helmet": "^3.3.9",
-    "gatsby-plugin-sharp": "^2.6.17",
-    "gatsby-plugin-styled-components": "^3.3.9",
-    "gatsby-source-filesystem": "^2.3.18",
-    "gatsby-transformer-sharp": "^2.5.10",
+    "gatsby": "^2.24.2",
+    "gatsby-background-image": "^1.1.1",
+    "gatsby-image": "^2.4.13",
+    "gatsby-plugin-manifest": "^2.4.18",
+    "gatsby-plugin-netlify": "^2.3.11",
+    "gatsby-plugin-offline": "^3.2.17",
+    "gatsby-plugin-react-helmet": "^3.3.10",
+    "gatsby-plugin-sharp": "^2.6.19",
+    "gatsby-plugin-styled-components": "^3.3.10",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
+    "gatsby-source-filesystem": "^2.3.19",
+    "gatsby-transformer-sharp": "^2.5.11",
     "polished": "^3.6.5",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
@@ -46,6 +48,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vojtechjurasek/gatsby-starter-codebros"
+    "url": "https://github.com/vojtechjurasek/moravska.cz"
   }
 }

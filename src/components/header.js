@@ -1,17 +1,28 @@
-import { Link } from 'gatsby'
-import PropTypes from 'prop-types'
 import React from 'react'
+import PropTypes from 'prop-types'
+import { Link } from 'gatsby'
+import styled from 'styled-components'
+import { Box, Flex } from 'rebass/styled-components'
 
 import Container from './container'
+import Logo from '../images/logo.svg'
+
+const StyledLogo = styled.img`
+  width: 100%;
+  height: 100%;
+  max-height: 64px;
+`
 
 const Header = ({ siteTitle }) => (
-  <header>
+  <Box variant="header" as="header">
     <Container>
-      <h1 style={{ margin: 0 }}>
-        <Link to="/">{siteTitle}</Link>
-      </h1>
+      <Flex>
+        <Link to="/">
+          <StyledLogo src={Logo} alt={siteTitle} />
+        </Link>
+      </Flex>
     </Container>
-  </header>
+  </Box>
 )
 
 Header.propTypes = {
