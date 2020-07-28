@@ -1,9 +1,9 @@
 {
-  "name": "moravska.cz",
+  "name": "gatsby-starter-codebros",
   "private": true,
-  "description": "Komplexní dodávky ve stavebnictví a tepelné energetice pro objekty občanské a průmyslové výstavby",
+  "description": "A starter to get up and developing quickly with Gatsby, ESLint, Styled Components, Rebass and various Gatsby plugins.",
   "version": "0.2.0",
-  "author": "Vojtech Jurasek <jurasek@ctyrimedia.cz>",
+  "author": "Vojtech Jurasek <vojtech@codebros.cz>",
   "scripts": {
     "build": "gatsby build",
     "dev": "gatsby develop",
@@ -48,6 +48,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vojtechjurasek/moravska.cz"
+    "url": "https://github.com/vojtechjurasek/gatsby-starter-codebros"
   }
 }
