@@ -23,7 +23,7 @@
     "gatsby-plugin-sharp": "^2.6.35",
     "gatsby-plugin-styled-components": "^3.3.10",
     "gatsby-plugin-web-font-loader": "^1.0.4",
-    "gatsby-source-filesystem": "^2.3.29",
+    "gatsby-source-filesystem": "^2.8.0",
     "gatsby-transformer-sharp": "^2.5.14",
     "polished": "^3.6.6",
     "prop-types": "^15.7.2",
