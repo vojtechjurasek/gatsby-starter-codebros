@@ -25,7 +25,7 @@
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-source-filesystem": "^2.3.29",
     "gatsby-transformer-sharp": "^2.5.14",
-    "polished": "^3.6.6",
+    "polished": "^4.1.1",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
