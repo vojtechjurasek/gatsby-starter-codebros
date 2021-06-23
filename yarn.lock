@@ -1182,14 +1182,7 @@
     core-js-pure "^3.0.0"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.10.0", "@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.3.4", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4":
-  version "7.13.10"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.13.10.tgz#47d42a57b6095f4468da440388fdbad8bebf0d7d"
-  integrity sha512-4QPkjJq6Ns3V/RgpEahRk+AGfL0eO6RHHtTWoNNr5mO49G6B5+X6d6THgWEAvTrznU5xYpbAlVKRYcsCgh/Akw==
-  dependencies:
-    regenerator-runtime "^0.13.4"
-
-"@babel/runtime@^7.13.17", "@babel/runtime@^7.14.0":
+"@babel/runtime@^7.10.0", "@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.13.17", "@babel/runtime@^7.14.0", "@babel/runtime@^7.3.4", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4":
   version "7.14.6"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.14.6.tgz#535203bc0892efc7dec60bdc27b2ecf6e409062d"
   integrity sha512-/PCB2uJ7oM44tz8YhC4Z/6PeOKXp4K588f+5M3clr1M4zbqztlo0XEfJ2LEzj/FgwfgGcIdl8n7YYjTCI0BYwg==
@@ -6480,10 +6473,10 @@ gatsby-plugin-manifest@^3.7.1:
     semver "^7.3.5"
     sharp "^0.28.1"
 
-gatsby-plugin-netlify@^3.7.1:
-  version "3.7.1"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify/-/gatsby-plugin-netlify-3.7.1.tgz#23e42307cf9172fd7ba79f5d0973648ddce8c0ed"
-  integrity sha512-VKytJR20ZXVz5a2B46KKVDiLKX7Ftp7+U0jbk80k2LhOHNOi8Z7aoJwOCLO75eAwcSCfWmcBpgcK1v/0Q4OBpA==
+gatsby-plugin-netlify@^3.8.0:
+  version "3.8.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify/-/gatsby-plugin-netlify-3.8.0.tgz#615e10e0d42d69d517f257c98204a1759a79c47d"
+  integrity sha512-HLA5txTGi/Sg/rSsCvsqKqK34IxsvzUiFPlBgf/OFcdQ1vnRmFTT5/cjHZQ3/OwL/++xxEw10bKRv+Z3LdKIPA==
   dependencies:
     "@babel/runtime" "^7.14.0"
     fs-extra "^8.1.0"
