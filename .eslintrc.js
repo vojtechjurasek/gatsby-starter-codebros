@@ -25,6 +25,7 @@ module.exports = {
     'react/forbid-prop-types': 'off',
     'react/destructuring-assignment': 'off',
     'react/jsx-props-no-spreading': 'off',
+    'react/function-component-definition': 'off',
     'consistent-return': 'off',
     'arrow-body-style': 'off',
     'import/no-extraneous-dependencies': 'off',
@@ -33,4 +34,4 @@ module.exports = {
   settings: {
     'import/core-modules': [],
   },
-};
+}
